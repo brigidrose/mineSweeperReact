@@ -1,0 +1,24 @@
+{
+  "name": "walsh_minesweeper",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "As someone who is fairly new to Javascript/React, I found this take-home assignment to be quite challenging. I researched multiple existing Minesweeper examples (see below) to help myself better understand the algorithms needed. I also had to frequently review ES6 style guides(I learned ES5 and I am still getting up to speed).",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

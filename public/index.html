@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Minesweeper!</title>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src= "mineSweeper.js"></script>
+    <style>
+        #container{
+            padding: 50px;
+            background-color: #black;
+
+        }
+        .cell{
+            background-color: #A39A92;
+            height: 40px;
+            width: 40px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #058ED9;
+        }
+        .cell[symbol="."]{
+            background-color: #F4EBD9;
+            color: #F4EBD9;
+        }
+        .cell[symbol="?"]{
+            color: #A39A92;
+        }
+        .cell[symbol="1"]{
+            color: red;
+        }
+        .cell[symbol="2"]{
+            color: purple;
+        }
+        .cell[symbol="3"]{
+            color: green;
+        }
+        .cell[symbol="4"]{
+            color: yellow;
+        }
+        .cell[symbol="5"]{
+            color: blue;
+        }
+        .cell[symbol="6"]{
+            color: pink;
+        }
+        .cell[symbol="7"]{
+            color: brown;
+        }
+        .cell[symbol="8"]{
+            color: teal;
+        }
+    </style> 
+</head>
+<body>    
+    <div id="container"></div>
+    <script type="text/babel" src="mineSweeper.jsx">
+        
+    </script>
+
+
+</body>
+</html>
